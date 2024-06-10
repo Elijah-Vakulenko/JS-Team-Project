@@ -56,9 +56,15 @@
   overflow: hidden;
 }
 
+.logo {
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+}
+
 h1,
 h2,
-h3 {
+.logo {
   font-weight: 400;
   font-family: 'Impact', sans-serif;
   text-transform: uppercase;
@@ -77,12 +83,6 @@ h2 {
 }
 
 h3 {
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: 0.05em;
-}
-
-h4 {
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
@@ -90,7 +90,7 @@ h4 {
   text-transform: uppercase;
 }
 
-h5 {
+h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -101,8 +101,8 @@ h5 {
 
 h1 span,
 h2 span,
-h3 span,
-h5 span,
+h4 span,
+.logo span,
 p span {
   color: #00b068;
 }
@@ -277,6 +277,12 @@ textarea::placeholder {
     max-width: 768px;
   }
 
+  .logo {
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+  }
+
   h1 {
     font-size: 136px;
     line-height: 1.14;
@@ -290,18 +296,12 @@ textarea::placeholder {
   }
 
   h3 {
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: 0.05em;
-  }
-
-  h4 {
     font-size: 36px;
     line-height: 1.33;
     letter-spacing: 0.01em;
   }
 
-  h5 {
+  h4 {
     font-size: 20px;
     line-height: 1.6;
     letter-spacing: 0.03em;
