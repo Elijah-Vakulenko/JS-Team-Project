@@ -1,0 +1,16 @@
+section .header .container{
+    padding-bottom: 150px;
+}
+
+.logo{
+    font-family: 'Chromoh', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.header-background{
+    background-image: url('../img/backgrounds/NNF-Circle-from-CD.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: 115px -33px;
+}
