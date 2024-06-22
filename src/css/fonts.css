@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Chromoh';
+  src: url(../font/CHROMOH.ttf);
+}
+
+@font-face {
+  font-family: 'Creolia';
+  src: url(../font/Creolia.ttf);
+}
+
+@font-face {
+  font-family: 'Franklin';
+  src: url(../font/FranklinGothic-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../font/Helvetica\ Neue\ UltraLight.ttf);
+}
+
+@font-face {
+  font-family: 'Poplar';
+  src: url(../font/Poplar_Std_Black.ttf);
+}

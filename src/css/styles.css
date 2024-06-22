@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('./fonts.css');
 /* @import url('./header.css'); */
 /* @import url('./hero.css'); */
 /* @import url('./about-me.css'); */
@@ -9,15 +10,6 @@
 /* @import url('./reviews.css'); */
 /* @import url('./work-together.css'); */
 /* @import url('./footer.css'); */
-
-/* ====================Font setup========================== */
-
-/* Імпортуємо зовнішній шрифт. У теці font завантажили шрифт імпакт. Встановлюємо в проект за допомогою конструкції: */
-@font-face {
-  font-family: 'Impact', sans-serif;
-  src: url(../font/impact.ttf);
-}
-/* ========================================================= */
 
 :root {
   font-family: 'Poppins', sans-serif;
@@ -41,6 +33,7 @@
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+  outline: 1px solid orange;
 }
 
 .is-hidden {
@@ -54,12 +47,6 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.logo {
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: 0.05em;
 }
 
 h1,
@@ -107,167 +94,16 @@ p span {
   color: #00b068;
 }
 
-/* ====================================BUTTONS MOBILE=========================================== */
-
-.order-btn {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55556;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  background-color: transparent;
-  border: none;
-  width: 100%;
-  height: 92px;
-}
-
-.order-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  border: none;
-  border-radius: 16px;
-  width: 165px;
-  height: 100%;
-  background-color: rgba(0, 176, 104, 0.2);
-}
-
-.order-btn:hover::before {
-  background-color: rgba(0, 176, 104, 0.6);
-}
-
-.visit-btn {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 12px;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
-  background-color: #e4e5e6;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  width: 125px;
-  height: 48px;
-}
-
 .visit-btn:hover {
   background-color: #bbbbbb;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.load-more-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55556;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #292929;
-  background-color: transparent;
-  padding: 12px 22px;
-  width: 154px;
-  height: 52px;
-}
-
-.load-more-btn:hover {
-  color: #00b068;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
-  color: #f0f0f0;
-  background-color: #00b068;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  width: 100%;
-  height: 48px;
-}
-
-.form-btn:hover {
-  background-color: #009156;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* ======================================INPUTS============================================ */
-input {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border: none;
-  border-radius: 8px;
-  padding: 16px;
-  width: 100%;
-  height: 48px;
-  background-color: #e4e5e6;
-}
-
-input::placeholder {
-  color: rgba(41, 41, 41, 0.4);
-}
-
-textarea {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border: none;
-  border-radius: 8px;
-  padding: 16px;
-  width: 100%;
-  height: 128px;
-  background-color: #e4e5e6;
-}
-
-textarea::placeholder {
-  color: rgba(41, 41, 41, 0.4);
-}
 /* ================================АДАПТИВ======================================= */
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
-  }
-
-  .form-btn,
-  .order-btn {
-    width: 320px;
-  }
-
-  input,
-  textarea {
-    width: 320px;
   }
 }
 
@@ -275,12 +111,6 @@ textarea::placeholder {
   .container {
     padding: 0 32px;
     max-width: 768px;
-  }
-
-  .logo {
-    font-size: 32px;
-    line-height: 1;
-    letter-spacing: 0.05em;
   }
 
   h1 {
@@ -306,48 +136,10 @@ textarea::placeholder {
     line-height: 1.6;
     letter-spacing: 0.03em;
   }
-  /* ====================================BUTTONS TABLET + DESKTOP=========================================== */
-  .order-btn {
-    font-size: 20px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    width: 416px;
-    height: 96px;
-  }
-
-  .order-btn::before {
-    border-radius: 16px;
-    width: 261px;
-  }
-
-  .load-more-btn {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    width: 165px;
-    height: 56px;
-  }
-
-  .form-btn {
-    width: 173px;
-    height: 48px;
-  }
-
-  /* ===========================INPUTS TABLET+DESKTOP================================== */
-  input {
-    width: 704px;
-    height: 48px;
-  }
-
-  textarea {
-    width: 704px;
-    height: 128px;
-  }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
   .container {
-    max-width: 1280px;
+    max-width: 1440px;
   }
 }
