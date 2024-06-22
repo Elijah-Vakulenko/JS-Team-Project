@@ -40,6 +40,12 @@
   display: inline-block;
 }
 
+.img-text {
+  padding-top: 5px;
+  display: flex;
+  gap: 16px;
+}
+
 .acord-title-arrow {
   display: flex;
   justify-content: space-between;
@@ -71,6 +77,9 @@
 }
 
 .acord-img {
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
 }
 
 .acord-album-description {
@@ -107,4 +116,13 @@
   color: beige;
   font-family: 'Chromoh', serif;
   font-size: 16px;
+}
+
+.lrn-more {
+  display: flex;
+  font-weight: 500;
+  justify-content: flex-end;
+}
+.lrn-more:hover {
+  color: orangered;
 }
