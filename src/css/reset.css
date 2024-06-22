@@ -18,9 +18,9 @@ p {
   margin: 0;
 }
 
-p:last-child {
+/* p:last-child {
   margin-bottom: 0;
-}
+} */
 
 ul,
 ol {
@@ -49,3 +49,7 @@ input {
   outline: none;
   font-family: inherit;
 }
+
+/* p {
+  display: block;
+} */
