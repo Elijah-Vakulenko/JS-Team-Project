@@ -4,7 +4,7 @@ const images = [
         description: 'Jason Wade',
     },
     {
-         url: './img/gallery/no-name-face/Yeah2.jpg',
+         url: '../img/gallery/no-name-face/Yeah2.jpg',
         description: 'Sergio, Jason and Rick',
     },
     {
@@ -12,7 +12,7 @@ const images = [
         description: 'Jason, Sergio and Rick',
     },
     {
-         url: './img/gallery/stanley-climbfall/promo.jpg',
+         url: '../img/gallery/stanley-climbfall/promo.jpg',
         description: 'Lifehouse on the truck',
     },
     {
@@ -20,7 +20,7 @@ const images = [
         description: 'Jason, Sergio and brothers Woolstenhulme',
     },
     {
-         url: './img/gallery/stanley-climbfall/Amsterdam12.jpg',
+         url: '../img/gallery/stanley-climbfall/Amsterdam12.jpg',
         description: 'Amsterdam',
     },
     {
@@ -28,7 +28,7 @@ const images = [
         description: 'Photoshot',
     },
     {
-         url: './img/gallery/stanley-climbfall/seanrick.jpg',
+         url: '../img/gallery/stanley-climbfall/seanrick.jpg',
         description: 'Sean and Rick',
     },
 ];
