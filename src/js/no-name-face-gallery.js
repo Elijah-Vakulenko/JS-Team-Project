@@ -28,7 +28,7 @@ const images = [
         description: '',
     },
     {
-         url: './img/gellary/stanley-climbfall/seanrick.jpg',
+         url: '../img/gellary/stanley-climbfall/seanrick.jpg',
         description: '',
     },
 ];
