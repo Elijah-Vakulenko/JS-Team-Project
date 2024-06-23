@@ -1,5 +1,8 @@
 .header .container {
   padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -8,9 +11,30 @@
   padding: 20px 0;
 }
 
+.logo:hover {
+  color: orangered;
+}
+
 .header-background {
   background-image: url('../img/backgrounds/NNF-Circle-from-CD.png');
   background-size: 170px;
   background-repeat: no-repeat;
   background-position: 115px -33px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.menu-list a {
+  color: #2b2b2b;
+  font-family: 'Chromoh', serif;
+  font-size: 20px;
+}
+
+.menu-list a:hover {
+  color: orangered;
 }

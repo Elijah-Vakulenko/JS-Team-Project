@@ -46,6 +46,11 @@ section {
   overflow: hidden;
 }
 
+h2 {
+  font-family: 'Chromoh', serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
 /* ================================АДАПТИВ======================================= */
 
 @media screen and (min-width: 375px) {
