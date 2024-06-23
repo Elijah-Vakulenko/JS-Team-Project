@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{A as a}from"./assets/vendor-4bfe436b.js";new a(".acord-album-list",{duration:400,showMultiple:!1,elementClass:"acord-album-item",triggerClass:"acord-title-arrow",panelClass:"acord-img-description",activeClass:"acord-album-item-active",openOnInit:[0]});
+//# sourceMappingURL=commonHelpers3.js.map
