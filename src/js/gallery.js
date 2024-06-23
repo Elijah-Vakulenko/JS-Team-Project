@@ -1,6 +1,6 @@
 const images = [
     {
-        url: '../img/gallery/no-name-face/135855.jpg',
+        url: './img/gallery/no-name-face/135855.jpg',
         description: 'Jason Wade',
     },
     {
@@ -8,11 +8,11 @@ const images = [
         description: 'Sergio, Jason and Rick',
     },
     {
-        url: '../img/gallery/no-name-face/Yeah3.jpg',
+        url: '.../img/gallery/no-name-face/Yeah3.jpg',
         description: 'Jason, Sergio and Rick',
     },
     {
-         url: '../img/gallery/stanley-climbfall/promo.jpg',
+         url: '/img/gallery/stanley-climbfall/promo.jpg',
         description: 'Lifehouse on the truck',
     },
     {
