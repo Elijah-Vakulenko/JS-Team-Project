@@ -1,34 +1,34 @@
 const images = [
     {
-        url: '../img/gellary/no-name-face/135855.jpg',
+        url: '../img/gallery/no-name-face/135855.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/no-name-face/Yeah2.jpg',
+         url: '../img/gallery/no-name-face/Yeah2.jpg',
         description: '',
     },
     {
-        url: '../img/gellary/no-name-face/Yeah3.jpg',
+        url: '../img/gallery/no-name-face/Yeah3.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/stanley-climbfall/promo.jpg',
+         url: '../img/gallery/stanley-climbfall/promo.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/stanley-climbfall/09-lifehouse-082007.jpg',
+         url: '../img/gallery/stanley-climbfall/09-lifehouse-082007.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/stanley-climbfall/Amsterdam12.jpg',
+         url: '../img/gallery/stanley-climbfall/Amsterdam12.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/stanley-climbfall/band055.jpg',
+         url: '../img/gallery/stanley-climbfall/band055.jpg',
         description: '',
     },
     {
-         url: '../img/gellary/stanley-climbfall/seanrick.jpg',
+         url: '../img/gallery/stanley-climbfall/seanrick.jpg',
         description: '',
     },
 ];
