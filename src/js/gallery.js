@@ -16,7 +16,7 @@ const images = [
         description: 'Lifehouse on the truck',
     },
     {
-         url: './img/gallery/stanley-climbfall/09-lifehouse-082007.jpg',
+         url: 'https://github.com/Elijah-Vakulenko/Lifehouse.ua/blob/main/src%2Fimg%2Fgallery%2Fno-name-face%2F135855.jpg',
         description: 'Jason, Sergio and brothers Woolstenhulme',
     },
     {
