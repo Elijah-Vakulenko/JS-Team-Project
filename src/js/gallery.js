@@ -1,6 +1,6 @@
 const images = [
     {
-        url: './img/gallery/no-name-face/135855.jpg',
+        url: '../img/gallery/no-name-face/135855.jpg',
         description: 'Jason Wade',
     },
     {
@@ -8,7 +8,7 @@ const images = [
         description: 'Sergio, Jason and Rick',
     },
     {
-        url: './img/gallery/no-name-face/Yeah3.jpg',
+        url: '../img/gallery/no-name-face/Yeah3.jpg',
         description: 'Jason, Sergio and Rick',
     },
     {
@@ -16,7 +16,7 @@ const images = [
         description: 'Lifehouse on the truck',
     },
     {
-         url: 'https://github.com/Elijah-Vakulenko/Lifehouse.ua/blob/main/src%2Fimg%2Fgallery%2Fno-name-face%2F135855.jpg',
+         url: '../img/gallery/no-name-face/135855.jpg',
         description: 'Jason, Sergio and brothers Woolstenhulme',
     },
     {
@@ -24,7 +24,7 @@ const images = [
         description: 'Amsterdam',
     },
     {
-         url: './img/gallery/stanley-climbfall/band055.jpg',
+         url: '../img/gallery/stanley-climbfall/band055.jpg',
         description: 'Photoshot',
     },
     {
