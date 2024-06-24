@@ -1,12 +1,14 @@
-import image1 from './img/gallery/no-name-face/135855.jpg';
-import image2 from './img/gallery/no-name-face/Yeah2.jpg';
-import image3 from './img/gallery/no-name-face/Yeah3.jpg';
-import image4 from './img/gallery/stanley-climbfall/promo.jpg';
-import image5 from './img/gallery/stanley-climbfall/09-lifehouse-082007.jpg';
-import image6 from './img/gallery/stanley-climbfall/Amsterdam12.jpg';
-import image7 from './img/gallery/stanley-climbfall/band055.jpg';
-import image8 from './img/gallery/stanley-climbfall/seanrick.jpg';
-import image9 from './img/gallery/no-name-face/stairs.jpg';
+import image1 from '../img/gallery/no-name-face/135855.jpg';
+import image2 from '../img/gallery/no-name-face/Yeah2.jpg';
+import image3 from '../img/gallery/no-name-face/Yeah3.jpg';
+import image4 from '../img/gallery/stanley-climbfall/promo.jpg';
+import image5 from '../img/gallery/stanley-climbfall/09-lifehouse-082007.jpg';
+import image6 from '../img/gallery/stanley-climbfall/Amsterdam12.jpg';
+import image7 from '../img/gallery/stanley-climbfall/band055.jpg';
+import image8 from '../img/gallery/stanley-climbfall/seanrick.jpg';
+import image9 from '../img/gallery/no-name-face/stairs.jpg';
+
+console.log(image1);
 
 const images = [
   {
