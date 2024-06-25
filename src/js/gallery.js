@@ -1,6 +1,7 @@
 import image1 from '../img/gallery/1/1.jpg';
 import image2 from '../img/gallery/1/2.jpg';
 import image3 from '../img/gallery/1/3.jpg';
+import image11 from '../img/gallery/1/5.jpg';
 import image4 from '../img/gallery/2/1.jpg';
 import image5 from '../img/gallery/2/2.jpg';
 import image6 from '../img/gallery/2/3.jpg';
@@ -26,6 +27,10 @@ const images = [
   },
   {
     url: image4,
+    description: 'Lifehouse on the truck',
+  },
+  {
+    url: image11,
     description: 'Lifehouse on the truck',
   },
   {

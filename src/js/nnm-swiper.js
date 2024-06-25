@@ -7,6 +7,7 @@ import img1_1 from '../img/gallery/1/1.jpg';
 import img1_2 from '../img/gallery/1/2.jpg';
 import img1_3 from '../img/gallery/1/3.jpg';
 import img1_4 from '../img/gallery/1/4.jpg';
+import img1_5 from '../img/gallery/1/5.jpg';
 
 const images = [
 
@@ -14,6 +15,7 @@ const images = [
   { url: img1_2, description: 'guys on the stairs' },
   { url: img1_3, description: 'Sergio, Jason and Rick' },
   { url: img1_4, description: 'Jason, Sergio and Rick' },
+  { url: img1_5, description: 'Lifehouse' },
 ]
 
 const render = images.map(image => `
