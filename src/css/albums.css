@@ -1,0 +1,15 @@
+.album-card {
+  margin-top: 16px;
+  display: flex;
+  gap: 36px;
+}
+.album-cover {
+  border: 3px solid #ebe3c1;
+  outline: 3px solid #292929;
+  margin-bottom: 16px;
+}
+.album-description {
+}
+.album-history {
+  margin-bottom: 16px;
+}
